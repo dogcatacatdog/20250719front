@@ -1,0 +1,8451 @@
+{
+  "test_info": {
+    "model_path": "./runs/detect/train/weights/best.pt",
+    "testset_dir": "./testset",
+    "confidence_threshold": 0.5,
+    "timestamp": "20250719_115436",
+    "total_images": 1050
+  },
+  "metrics": {
+    "confusion_matrix": {
+      "true_negative": 900,
+      "false_positive": 0,
+      "false_negative": 150,
+      "true_positive": 0
+    },
+    "accuracy": 0.8571428571428571,
+    "precision": 0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "f1_score": 0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.14285714285714285,
+    "total_samples": 1050,
+    "defective_samples": 150,
+    "normal_samples": 900,
+    "curves": {
+      "roc": {
+        "fpr": [
+          0.0,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          1.0
+        ]
+      },
+      "precision_recall": {
+        "precision": [
+          0.14285714285714285,
+          1.0
+        ],
+        "recall": [
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "filename": "0001.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0002.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0003.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0004.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0005.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0006.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0007.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0008.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0009.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0010.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0011.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0012.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0013.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0014.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0015.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0016.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0017.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0018.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0019.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0020.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0021.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0022.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0023.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0024.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0025.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0026.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0027.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0028.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0029.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0030.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0031.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0032.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0033.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0034.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0035.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0036.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0037.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0038.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0039.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0040.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0041.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0042.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0043.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0044.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0045.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0046.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0047.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0048.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0049.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0050.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0051.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0052.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0053.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0054.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0055.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0056.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0057.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0058.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0059.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0060.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0061.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0062.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0063.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0064.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0065.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0066.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0067.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0068.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0069.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0070.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0071.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0072.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0073.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0074.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0075.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0076.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0077.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0078.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0079.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0080.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0081.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0082.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0083.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0084.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0085.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0086.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0087.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0088.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0089.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0090.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0091.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0092.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0093.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0094.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0095.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0096.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0097.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0098.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0099.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0100.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0101.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0102.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0103.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0104.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0105.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0106.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0107.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0108.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0109.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0110.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0111.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0112.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0113.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0114.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0115.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0116.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0117.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0118.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0119.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0120.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0121.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0122.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0123.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0124.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0125.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0126.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0127.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0128.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0129.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0130.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0131.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0132.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0133.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0134.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0135.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0136.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0137.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0138.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0139.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0140.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0141.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0142.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0143.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0144.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0145.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0146.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0147.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0148.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0149.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0150.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0151.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0152.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0153.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0154.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0155.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0156.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0157.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0158.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0159.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0160.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0161.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0162.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0163.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0164.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0165.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0166.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0167.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0168.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0169.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0170.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0171.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0172.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0173.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0174.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0175.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0176.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0177.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0178.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0179.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0180.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0181.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0182.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0183.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0184.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0185.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0186.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0187.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0188.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0189.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0190.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0191.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0192.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0193.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0194.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0195.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0196.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0197.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0198.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0199.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0200.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0201.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0202.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0203.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0204.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0205.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0206.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0207.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0208.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0209.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0210.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0211.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0212.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0213.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0214.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0215.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0216.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0217.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0218.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0219.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0220.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0221.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0222.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0223.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0224.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0225.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0226.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0227.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0228.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0229.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0230.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0231.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0232.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0233.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0234.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0235.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0236.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0237.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0238.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0239.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0240.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0241.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0242.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0243.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0244.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0245.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0246.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0247.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0248.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0249.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0250.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0251.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0252.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0253.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0254.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0255.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0256.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0257.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0258.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0259.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0260.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0261.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0262.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0263.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0264.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0265.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0266.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0267.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0268.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0269.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0270.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0271.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0272.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0273.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0274.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0275.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0276.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0277.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0278.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0279.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0280.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0281.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0282.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0283.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0284.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0285.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0286.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0287.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0288.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0289.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0290.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0291.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0292.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0293.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0294.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0295.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0296.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0297.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0298.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0299.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0300.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0301.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0302.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0303.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0304.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0305.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0306.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0307.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0308.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0309.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0310.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0311.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0312.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0313.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0314.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0315.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0316.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0317.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0318.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0319.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0320.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0321.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0322.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0323.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0324.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0325.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0326.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0327.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0328.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0329.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0330.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0331.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0332.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0333.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0334.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0335.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0336.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0337.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0338.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0339.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0340.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0341.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0342.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0343.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0344.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0345.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0346.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0347.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0348.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0349.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0350.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0351.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0352.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0353.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0354.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0355.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0356.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0357.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0358.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0359.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0360.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0361.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0362.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0363.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0364.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0365.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0366.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0367.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0368.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0369.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0370.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0371.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0372.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0373.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0374.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0375.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0376.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0377.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0378.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0379.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0380.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0381.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0382.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0383.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0384.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0385.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0386.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0387.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0388.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0389.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0390.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0391.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0392.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0393.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0394.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0395.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0396.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0397.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0398.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0399.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0400.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0401.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0402.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0403.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0404.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0405.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0406.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0407.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0408.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0409.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0410.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0411.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0412.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0413.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0414.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0415.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0416.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0417.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0418.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0419.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0420.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0421.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0422.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0423.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0424.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0425.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0426.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0427.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0428.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0429.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0430.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0431.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0432.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0433.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0434.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0435.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0436.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0437.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0438.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0439.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0440.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0441.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0442.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0443.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0444.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0445.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0446.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0447.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0448.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0449.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0450.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0451.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0452.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0453.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0454.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0455.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0456.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0457.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0458.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0459.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0460.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0461.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0462.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0463.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0464.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0465.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0466.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0467.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0468.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0469.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0470.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0471.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0472.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0473.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0474.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0475.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0476.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0477.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0478.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0479.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0480.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0481.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0482.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0483.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0484.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0485.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0486.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0487.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0488.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0489.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0490.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0491.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0492.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0493.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0494.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0495.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0496.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0497.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0498.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0499.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0500.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0501.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0502.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0503.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0504.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0505.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0506.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0507.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0508.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0509.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0510.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0511.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0512.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0513.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0514.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0515.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0516.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0517.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0518.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0519.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0520.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0521.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0522.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0523.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0524.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0525.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0526.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0527.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0528.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0529.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0530.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0531.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0532.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0533.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0534.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0535.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0536.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0537.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0538.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0539.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0540.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0541.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0542.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0543.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0544.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0545.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0546.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0547.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0548.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0549.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0550.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0551.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0552.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0553.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0554.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0555.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0556.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0557.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0558.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0559.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0560.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0561.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0562.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0563.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0564.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0565.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0566.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0567.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0568.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0569.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0570.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0571.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0572.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0573.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0574.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0575.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0576.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0577.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0578.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0579.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0580.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0581.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0582.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0583.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0584.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0585.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0586.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0587.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0588.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0589.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0590.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0591.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0592.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0593.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0594.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0595.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0596.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0597.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0598.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0599.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0600.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0601.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0602.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0603.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0604.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0605.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0606.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0607.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0608.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0609.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0610.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0611.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0612.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0613.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0614.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0615.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0616.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0617.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0618.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0619.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0620.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0621.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0622.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0623.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0624.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0625.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0626.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0627.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0628.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0629.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0630.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0631.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0632.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0633.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0634.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0635.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0636.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0637.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0638.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0639.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0640.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0641.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0642.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0643.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0644.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0645.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0646.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0647.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0648.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0649.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0650.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0651.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0652.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0653.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0654.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0655.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0656.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0657.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0658.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0659.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0660.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0661.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0662.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0663.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0664.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0665.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0666.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0667.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0668.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0669.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0670.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0671.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0672.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0673.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0674.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0675.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0676.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0677.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0678.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0679.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0680.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0681.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0682.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0683.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0684.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0685.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0686.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0687.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0688.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0689.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0690.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0691.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0692.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0693.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0694.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0695.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0696.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0697.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0698.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0699.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0700.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0701.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0702.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0703.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0704.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0705.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0706.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0707.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0708.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0709.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0710.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0711.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0712.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0713.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0714.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0715.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0716.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0717.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0718.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0719.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0720.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0721.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0722.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0723.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0724.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0725.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0726.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0727.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0728.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0729.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0730.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0731.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0732.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0733.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0734.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0735.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0736.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0737.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0738.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0739.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0740.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0741.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0742.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0743.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0744.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0745.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0746.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0747.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0748.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0749.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0750.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0751.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0752.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0753.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0754.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0755.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0756.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0757.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0758.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0759.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0760.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0761.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0762.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0763.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0764.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0765.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0766.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0767.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0768.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0769.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0770.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0771.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0772.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0773.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0774.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0775.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0776.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0777.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0778.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0779.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0780.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0781.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0782.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0783.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0784.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0785.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0786.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0787.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0788.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0789.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0790.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0791.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0792.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0793.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0794.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0795.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0796.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0797.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0798.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0799.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0800.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0801.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0802.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0803.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0804.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0805.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0806.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0807.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0808.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0809.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0810.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0811.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0812.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0813.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0814.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0815.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0816.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0817.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0818.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0819.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0820.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0821.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0822.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0823.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0824.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0825.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0826.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0827.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0828.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0829.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0830.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0831.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0832.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0833.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0834.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0835.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0836.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0837.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0838.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0839.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0840.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0841.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0842.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0843.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0844.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0845.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0846.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0847.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0848.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0849.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0850.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0851.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0852.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0853.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0854.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0855.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0856.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0857.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0858.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0859.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0860.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0861.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0862.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0863.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0864.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0865.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0866.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0867.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0868.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0869.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0870.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0871.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0872.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0873.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0874.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0875.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0876.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0877.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0878.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0879.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0880.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0881.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0882.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0883.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0884.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0885.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0886.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0887.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0888.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0889.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0890.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0891.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0892.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0893.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0894.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0895.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0896.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0897.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0898.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0899.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0900.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0901.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0902.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0903.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0904.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0905.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0906.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0907.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0908.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0909.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0910.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0911.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0912.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0913.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0914.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0915.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0916.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0917.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0918.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0919.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0920.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0921.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0922.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0923.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0924.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0925.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0926.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0927.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0928.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0929.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0930.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0931.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0932.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0933.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0934.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0935.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0936.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0937.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0938.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0939.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0940.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0941.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0942.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0943.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0944.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0945.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0946.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0947.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0948.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0949.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0950.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0951.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0952.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0953.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0954.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0955.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0956.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0957.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0958.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0959.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0960.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0961.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0962.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0963.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0964.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0965.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0966.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0967.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0968.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0969.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0970.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0971.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0972.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0973.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0974.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0975.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0976.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0977.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0978.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0979.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0980.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0981.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0982.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0983.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0984.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0985.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0986.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "0987.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0988.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0989.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0990.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0991.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0992.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0993.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0994.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0995.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0996.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0997.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0998.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "0999.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1000.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1001.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1002.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1003.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1004.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1005.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1006.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1007.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1008.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1009.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1010.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1011.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1012.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1013.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1014.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "1015.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1016.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1017.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "1018.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1019.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1020.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "1021.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1022.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "1023.PNG",
+      "ground_truth": 1,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": false
+    },
+    {
+      "filename": "1024.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1025.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1026.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1027.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1028.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1029.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1030.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1031.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1032.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1033.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1034.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1035.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1036.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1037.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1038.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1039.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1040.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1041.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1042.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1043.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1044.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1045.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1046.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1047.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1048.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1049.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    },
+    {
+      "filename": "1050.PNG",
+      "ground_truth": 0,
+      "predicted": 0,
+      "confidence": 0.0,
+      "defect_count": 0,
+      "correct": true
+    }
+  ]
+}

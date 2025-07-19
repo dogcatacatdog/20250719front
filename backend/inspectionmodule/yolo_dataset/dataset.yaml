@@ -1,0 +1,7 @@
+names:
+- defect
+nc: 1
+path: "C:\\Users\\admin\\Desktop\\\uC815\uB9AC\\20250719\\backend\\inspectionmodule\\\
+  yolo_dataset"
+train: images/train
+val: images/val

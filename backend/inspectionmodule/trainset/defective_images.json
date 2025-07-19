@@ -1,0 +1,1064 @@
+{
+  "metadata": {
+    "description": "AI 검사 시스템 불량 이미지 데이터셋",
+    "total_images": 150,
+    "defective_count": 150,
+    "created_by": "Dataset Labeler",
+    "version": "1.0"
+  },
+  "images": [
+    {
+      "id": "1154",
+      "filename": "1154.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1154.PNG"
+    },
+    {
+      "id": "1171",
+      "filename": "1171.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1171.PNG"
+    },
+    {
+      "id": "1183",
+      "filename": "1183.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1183.PNG"
+    },
+    {
+      "id": "1186",
+      "filename": "1186.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1186.PNG"
+    },
+    {
+      "id": "1195",
+      "filename": "1195.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1195.PNG"
+    },
+    {
+      "id": "1211",
+      "filename": "1211.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1211.PNG"
+    },
+    {
+      "id": "1225",
+      "filename": "1225.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1225.PNG"
+    },
+    {
+      "id": "1249",
+      "filename": "1249.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1249.PNG"
+    },
+    {
+      "id": "1250",
+      "filename": "1250.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1250.PNG"
+    },
+    {
+      "id": "1251",
+      "filename": "1251.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1251.PNG"
+    },
+    {
+      "id": "1254",
+      "filename": "1254.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1254.PNG"
+    },
+    {
+      "id": "1260",
+      "filename": "1260.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1260.PNG"
+    },
+    {
+      "id": "1270",
+      "filename": "1270.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1270.PNG"
+    },
+    {
+      "id": "1274",
+      "filename": "1274.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1274.PNG"
+    },
+    {
+      "id": "1280",
+      "filename": "1280.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1280.PNG"
+    },
+    {
+      "id": "1287",
+      "filename": "1287.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1287.PNG"
+    },
+    {
+      "id": "1297",
+      "filename": "1297.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1297.PNG"
+    },
+    {
+      "id": "1300",
+      "filename": "1300.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1300.PNG"
+    },
+    {
+      "id": "1301",
+      "filename": "1301.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1301.PNG"
+    },
+    {
+      "id": "1319",
+      "filename": "1319.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1319.PNG"
+    },
+    {
+      "id": "1321",
+      "filename": "1321.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1321.PNG"
+    },
+    {
+      "id": "1328",
+      "filename": "1328.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1328.PNG"
+    },
+    {
+      "id": "1329",
+      "filename": "1329.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1329.PNG"
+    },
+    {
+      "id": "1364",
+      "filename": "1364.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1364.PNG"
+    },
+    {
+      "id": "1367",
+      "filename": "1367.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1367.PNG"
+    },
+    {
+      "id": "1395",
+      "filename": "1395.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1395.PNG"
+    },
+    {
+      "id": "1406",
+      "filename": "1406.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1406.PNG"
+    },
+    {
+      "id": "1410",
+      "filename": "1410.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1410.PNG"
+    },
+    {
+      "id": "1418",
+      "filename": "1418.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1418.PNG"
+    },
+    {
+      "id": "1427",
+      "filename": "1427.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1427.PNG"
+    },
+    {
+      "id": "1435",
+      "filename": "1435.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1435.PNG"
+    },
+    {
+      "id": "1437",
+      "filename": "1437.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1437.PNG"
+    },
+    {
+      "id": "1442",
+      "filename": "1442.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1442.PNG"
+    },
+    {
+      "id": "1461",
+      "filename": "1461.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1461.PNG"
+    },
+    {
+      "id": "1462",
+      "filename": "1462.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1462.PNG"
+    },
+    {
+      "id": "1472",
+      "filename": "1472.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1472.PNG"
+    },
+    {
+      "id": "1475",
+      "filename": "1475.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1475.PNG"
+    },
+    {
+      "id": "1484",
+      "filename": "1484.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1484.PNG"
+    },
+    {
+      "id": "1486",
+      "filename": "1486.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1486.PNG"
+    },
+    {
+      "id": "1494",
+      "filename": "1494.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1494.PNG"
+    },
+    {
+      "id": "1513",
+      "filename": "1513.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1513.PNG"
+    },
+    {
+      "id": "1521",
+      "filename": "1521.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1521.PNG"
+    },
+    {
+      "id": "1523",
+      "filename": "1523.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1523.PNG"
+    },
+    {
+      "id": "1545",
+      "filename": "1545.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1545.PNG"
+    },
+    {
+      "id": "1553",
+      "filename": "1553.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1553.PNG"
+    },
+    {
+      "id": "1560",
+      "filename": "1560.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1560.PNG"
+    },
+    {
+      "id": "1580",
+      "filename": "1580.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1580.PNG"
+    },
+    {
+      "id": "1581",
+      "filename": "1581.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1581.PNG"
+    },
+    {
+      "id": "1589",
+      "filename": "1589.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1589.PNG"
+    },
+    {
+      "id": "1590",
+      "filename": "1590.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1590.PNG"
+    },
+    {
+      "id": "1609",
+      "filename": "1609.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1609.PNG"
+    },
+    {
+      "id": "1611",
+      "filename": "1611.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1611.PNG"
+    },
+    {
+      "id": "1616",
+      "filename": "1616.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1616.PNG"
+    },
+    {
+      "id": "1633",
+      "filename": "1633.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1633.PNG"
+    },
+    {
+      "id": "1635",
+      "filename": "1635.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1635.PNG"
+    },
+    {
+      "id": "1636",
+      "filename": "1636.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1636.PNG"
+    },
+    {
+      "id": "1645",
+      "filename": "1645.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1645.PNG"
+    },
+    {
+      "id": "1653",
+      "filename": "1653.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1653.PNG"
+    },
+    {
+      "id": "1678",
+      "filename": "1678.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1678.PNG"
+    },
+    {
+      "id": "1692",
+      "filename": "1692.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1692.PNG"
+    },
+    {
+      "id": "1699",
+      "filename": "1699.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1699.PNG"
+    },
+    {
+      "id": "1702",
+      "filename": "1702.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1702.PNG"
+    },
+    {
+      "id": "1708",
+      "filename": "1708.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1708.PNG"
+    },
+    {
+      "id": "1714",
+      "filename": "1714.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1714.PNG"
+    },
+    {
+      "id": "1733",
+      "filename": "1733.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1733.PNG"
+    },
+    {
+      "id": "1750",
+      "filename": "1750.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1750.PNG"
+    },
+    {
+      "id": "1758",
+      "filename": "1758.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1758.PNG"
+    },
+    {
+      "id": "1770",
+      "filename": "1770.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1770.PNG"
+    },
+    {
+      "id": "1783",
+      "filename": "1783.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1783.PNG"
+    },
+    {
+      "id": "1787",
+      "filename": "1787.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1787.PNG"
+    },
+    {
+      "id": "1793",
+      "filename": "1793.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1793.PNG"
+    },
+    {
+      "id": "1797",
+      "filename": "1797.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1797.PNG"
+    },
+    {
+      "id": "1803",
+      "filename": "1803.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1803.PNG"
+    },
+    {
+      "id": "1806",
+      "filename": "1806.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1806.PNG"
+    },
+    {
+      "id": "1811",
+      "filename": "1811.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1811.PNG"
+    },
+    {
+      "id": "1812",
+      "filename": "1812.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1812.PNG"
+    },
+    {
+      "id": "1822",
+      "filename": "1822.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1822.PNG"
+    },
+    {
+      "id": "1831",
+      "filename": "1831.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1831.PNG"
+    },
+    {
+      "id": "1835",
+      "filename": "1835.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1835.PNG"
+    },
+    {
+      "id": "1876",
+      "filename": "1876.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1876.PNG"
+    },
+    {
+      "id": "1881",
+      "filename": "1881.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1881.PNG"
+    },
+    {
+      "id": "1888",
+      "filename": "1888.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1888.PNG"
+    },
+    {
+      "id": "1894",
+      "filename": "1894.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1894.PNG"
+    },
+    {
+      "id": "1923",
+      "filename": "1923.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1923.PNG"
+    },
+    {
+      "id": "1941",
+      "filename": "1941.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1941.PNG"
+    },
+    {
+      "id": "1944",
+      "filename": "1944.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1944.PNG"
+    },
+    {
+      "id": "1948",
+      "filename": "1948.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1948.PNG"
+    },
+    {
+      "id": "1950",
+      "filename": "1950.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1950.PNG"
+    },
+    {
+      "id": "1961",
+      "filename": "1961.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1961.PNG"
+    },
+    {
+      "id": "1967",
+      "filename": "1967.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1967.PNG"
+    },
+    {
+      "id": "1968",
+      "filename": "1968.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1968.PNG"
+    },
+    {
+      "id": "1977",
+      "filename": "1977.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1977.PNG"
+    },
+    {
+      "id": "1990",
+      "filename": "1990.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1990.PNG"
+    },
+    {
+      "id": "1992",
+      "filename": "1992.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/1992.PNG"
+    },
+    {
+      "id": "2000",
+      "filename": "2000.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2000.PNG"
+    },
+    {
+      "id": "2010",
+      "filename": "2010.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2010.PNG"
+    },
+    {
+      "id": "2013",
+      "filename": "2013.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2013.PNG"
+    },
+    {
+      "id": "2022",
+      "filename": "2022.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2022.PNG"
+    },
+    {
+      "id": "2025",
+      "filename": "2025.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2025.PNG"
+    },
+    {
+      "id": "2034",
+      "filename": "2034.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2034.PNG"
+    },
+    {
+      "id": "2037",
+      "filename": "2037.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2037.PNG"
+    },
+    {
+      "id": "2039",
+      "filename": "2039.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2039.PNG"
+    },
+    {
+      "id": "2043",
+      "filename": "2043.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2043.PNG"
+    },
+    {
+      "id": "2047",
+      "filename": "2047.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2047.PNG"
+    },
+    {
+      "id": "2052",
+      "filename": "2052.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2052.PNG"
+    },
+    {
+      "id": "2053",
+      "filename": "2053.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2053.PNG"
+    },
+    {
+      "id": "2054",
+      "filename": "2054.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2054.PNG"
+    },
+    {
+      "id": "2077",
+      "filename": "2077.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2077.PNG"
+    },
+    {
+      "id": "2080",
+      "filename": "2080.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2080.PNG"
+    },
+    {
+      "id": "2099",
+      "filename": "2099.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2099.PNG"
+    },
+    {
+      "id": "2102",
+      "filename": "2102.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2102.PNG"
+    },
+    {
+      "id": "2103",
+      "filename": "2103.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2103.PNG"
+    },
+    {
+      "id": "2119",
+      "filename": "2119.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2119.PNG"
+    },
+    {
+      "id": "2124",
+      "filename": "2124.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2124.PNG"
+    },
+    {
+      "id": "2130",
+      "filename": "2130.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2130.PNG"
+    },
+    {
+      "id": "2134",
+      "filename": "2134.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2134.PNG"
+    },
+    {
+      "id": "2161",
+      "filename": "2161.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2161.PNG"
+    },
+    {
+      "id": "2163",
+      "filename": "2163.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2163.PNG"
+    },
+    {
+      "id": "2169",
+      "filename": "2169.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2169.PNG"
+    },
+    {
+      "id": "2196",
+      "filename": "2196.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2196.PNG"
+    },
+    {
+      "id": "2200",
+      "filename": "2200.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2200.PNG"
+    },
+    {
+      "id": "2223",
+      "filename": "2223.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2223.PNG"
+    },
+    {
+      "id": "2228",
+      "filename": "2228.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2228.PNG"
+    },
+    {
+      "id": "2239",
+      "filename": "2239.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2239.PNG"
+    },
+    {
+      "id": "2240",
+      "filename": "2240.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2240.PNG"
+    },
+    {
+      "id": "2248",
+      "filename": "2248.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2248.PNG"
+    },
+    {
+      "id": "2254",
+      "filename": "2254.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2254.PNG"
+    },
+    {
+      "id": "2256",
+      "filename": "2256.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2256.PNG"
+    },
+    {
+      "id": "2269",
+      "filename": "2269.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2269.PNG"
+    },
+    {
+      "id": "2270",
+      "filename": "2270.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2270.PNG"
+    },
+    {
+      "id": "2273",
+      "filename": "2273.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2273.PNG"
+    },
+    {
+      "id": "2282",
+      "filename": "2282.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2282.PNG"
+    },
+    {
+      "id": "2283",
+      "filename": "2283.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2283.PNG"
+    },
+    {
+      "id": "2284",
+      "filename": "2284.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2284.PNG"
+    },
+    {
+      "id": "2285",
+      "filename": "2285.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2285.PNG"
+    },
+    {
+      "id": "2286",
+      "filename": "2286.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2286.PNG"
+    },
+    {
+      "id": "2287",
+      "filename": "2287.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2287.PNG"
+    },
+    {
+      "id": "2288",
+      "filename": "2288.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2288.PNG"
+    },
+    {
+      "id": "2289",
+      "filename": "2289.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2289.PNG"
+    },
+    {
+      "id": "2290",
+      "filename": "2290.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2290.PNG"
+    },
+    {
+      "id": "2291",
+      "filename": "2291.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2291.PNG"
+    },
+    {
+      "id": "2292",
+      "filename": "2292.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2292.PNG"
+    },
+    {
+      "id": "2293",
+      "filename": "2293.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2293.PNG"
+    },
+    {
+      "id": "2294",
+      "filename": "2294.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2294.PNG"
+    },
+    {
+      "id": "2295",
+      "filename": "2295.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2295.PNG"
+    },
+    {
+      "id": "2296",
+      "filename": "2296.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2296.PNG"
+    },
+    {
+      "id": "2297",
+      "filename": "2297.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2297.PNG"
+    },
+    {
+      "id": "2298",
+      "filename": "2298.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2298.PNG"
+    },
+    {
+      "id": "2299",
+      "filename": "2299.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2299.PNG"
+    },
+    {
+      "id": "2300",
+      "filename": "2300.PNG",
+      "label": 1,
+      "status": "불량",
+      "path": "./trainset/2300.PNG"
+    }
+  ],
+  "labels": {
+    "1": "불량"
+  }
+}
